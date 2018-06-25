@@ -15,7 +15,7 @@ var config = { // eslint-disable-line no-unused-vars
     // The ID of the jidesha extension for Chrome.
     desktopSharingChromeExtId: '{{ CHROME_EXT_ID }}',
     // Whether desktop sharing should be disabled on Chrome.
-    desktopSharingChromeDisabled: {{ CHROME_SHARE_ENABLED }},
+    desktopSharingChromeDisabled: {{ CHROME_SHARE_DISABLED }},
     // The media sources to use when using screen sharing with the Chrome
     // extension.
     desktopSharingChromeSources: [ 'screen', 'window', 'tab' ],
